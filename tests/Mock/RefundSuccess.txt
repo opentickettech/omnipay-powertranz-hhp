@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+    "IsoResponseCode": "00",
+    "ResponseMessage": "Refund Approved",
+    "TransactionIdentifier": "REFUND-789",
+    "TotalAmount": 500,
+    "CurrencyCode": "320"
+}

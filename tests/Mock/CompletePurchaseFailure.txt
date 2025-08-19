@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+    "IsoResponseCode": "05",
+    "ResponseMessage": "Declined",
+    "TransactionIdentifier": "TXN-FAILED-123",
+    "OrderIdentifier": "TEST-ORDER-123"
+}

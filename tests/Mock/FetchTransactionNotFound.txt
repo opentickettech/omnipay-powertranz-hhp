@@ -1,0 +1,8 @@
+HTTP/1.1 404 Not Found
+Content-Type: application/json
+
+{
+    "IsoResponseCode": "99",
+    "ResponseMessage": "Transaction not found",
+    "Message": "Transaction not found"
+}

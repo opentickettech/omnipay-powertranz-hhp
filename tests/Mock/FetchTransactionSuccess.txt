@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+    "IsoResponseCode": "00",
+    "ResponseMessage": "Transaction Found",
+    "TransactionIdentifier": "TXN-123456",
+    "OrderIdentifier": "TEST-ORDER-123",
+    "AuthCode": "123456",
+    "CardType": "Visa",
+    "MaskedPan": "411111******1111",
+    "TotalAmount": 1000,
+    "CurrencyCode": "320",
+    "TransactionDate": "2024-01-15T10:30:00Z",
+    "TransactionType": "Purchase",
+    "TransactionStatus": "Approved"
+}
