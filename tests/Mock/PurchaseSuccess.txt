@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+    "SpiToken": "TEST-SPI-TOKEN-123",
+    "TransactionIdentifier": "TXN-123456",
+    "ResponseCode": "00",
+    "ResponseMessage": "Success",
+    "OrderIdentifier": "TEST-ORDER-123"
+}
