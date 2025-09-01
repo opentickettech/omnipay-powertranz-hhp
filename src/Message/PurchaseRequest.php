@@ -36,7 +36,7 @@ class PurchaseRequest extends AbstractRequest
                 'MerchantResponseUrl' => $this->getReturnUrl()
             ],
             'ThreeDSecure' => true,
-            'TotalAmount' => (int) (round($this->getParameter('amount') * 100)),
+            'TotalAmount' => (int) $this->getParameter('amount'),
             'CurrencyCode' => $this->getCurrencyNumeric(),
             'OrderIdentifier' => $this->getTransactionId()
         ];
