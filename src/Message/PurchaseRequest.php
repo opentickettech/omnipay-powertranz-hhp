@@ -10,7 +10,7 @@ class PurchaseRequest extends AbstractRequest
     use CurrencyConversionTrait;
     protected function getEndpointPath()
     {
-        return '/Api/Spi/Auth';
+        return '/Api/Spi/Sale';
     }
 
     public function getData()
