@@ -6,7 +6,7 @@ use Omnipay\Common\Message\AbstractRequest as BaseAbstractRequest;
 
 abstract class AbstractRequest extends BaseAbstractRequest
 {
-    protected $liveEndpoint = 'https://{TBD}.ptranz.com';
+    protected $liveEndpoint = 'https://gateway.ptranz.com';
     protected $testEndpoint = 'https://staging.ptranz.com';
 
     public function getPowertranzId()
